@@ -53,9 +53,6 @@ const AuthenticationPage = () => {
   const { play } = useSoundPlayer()
   const { isContentReady } = useMainStore()
 
-  const title = `"The Incredibles" - Syndrome Main Computer`
-  const description = `A faithful, modern-day web recreation of Syndrome’s iconic main computer (Brainrot unveiled sequence), built with Next.js and React 19. This project brings to life the cinematic interface from The Incredibles with cutting-edge web technologies.`
-
   const SUBMIT_TIMEOUT = 300
 
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
