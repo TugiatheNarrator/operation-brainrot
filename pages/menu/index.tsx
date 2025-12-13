@@ -11,10 +11,10 @@ import { NextSeo } from 'next-seo'
  * Main navigation page of the **Syndrome Main Computer** interface.
  *
  * Provides entry points to key system modules such as:
- * - **Island Operations**
- * - **Finances**
- * - **Omnidroid Metatraining**
- * - **Supers Database** (navigates into Supers submenu)
+ * - **AI Generated Images**
+ * - **Money**
+ * - **Brainrot Videos**
+ * - **Generations Database** (navigates into Generations submenu)
  *
  * Supers-specific navigation provides access to:
  * - The complete **Supers List** (starting from the first available encounter).
@@ -29,7 +29,7 @@ const MenuPage = () => {
   const styles = useSlotRecipe({ key: 'menuPage' })({}) as Record<string, BoxProps & StackProps>
 
   const title = `Main Menu | Syndrome Main Computer`
-  const description = `Access the central control menu of Syndrome's main computer. Navigate to Island Operations, Finances, Omnidroid Metatraining, and Supers management.`
+  const description = `Access the central control menu of Syndrome's main computer. Navigate to AI Generated Images, Money, Brainrot Videos, and Generations management.`
 
   return (
     <>
