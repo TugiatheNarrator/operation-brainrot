@@ -15,8 +15,8 @@ import { NextSeo } from 'next-seo'
 const IslandOperationsPage = () => {
   const styles = useSlotRecipe({ key: 'islandOperationsPage' })({}) as Record<string, BoxProps & StackProps>
 
-  const title = 'Omnidroid Final Design v.10 | Syndrome Main Computer'
-  const description = `Explore the final iteration of the Omnidroid v.10, the core autonomous unit of the Kronos project. Engineered for strategic control and advanced AI operations within phase 1–3.`
+  const title = '67 | Syndrome Main Computer'
+  const description = `Explore the final iteration of Brainrot, the core autonomous unit of the Brainrot project. Engineered for destruction of all future Generations.`
 
   return (
     <>
