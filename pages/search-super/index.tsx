@@ -44,7 +44,7 @@ const SearchSuperPage = () => {
 
   const title = 'Search Generation | Syndrome Main Computer'
   const description =
-    'Search for Supers in the Omnidroid database. Discover which Supers were defeated in encounters and which ones are still active.'
+    'Search for Generations in the Brainrot database. Discover which Generations were infected with brainrot and which ones are still active.'
 
   const [searchValue, setSearchValue] = useState('')
   const searchInput = useRef<HTMLInputElement | null>(null)
