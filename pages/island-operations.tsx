@@ -29,7 +29,7 @@ const IslandOperationsPage = () => {
           url: `${SITE_URL}${ROUTES.ISLAND_OPERATIONS}`,
           images: [
             {
-              url: '/images/seo/kronos.png',
+              url: '/images/seo/67.png',
               alt: title,
               width: 1239,
               height: 630,
