@@ -6,4 +6,8 @@ export const encounters: Array<Encounter> = [
   { superSlug: 'generation-z', omnidroidSlug: 'mlg-brainrot', superDefeated: true, omnidroidDefeated: false },
   { superSlug: 'generation-alpha', omnidroidSlug: 'mlg-brainrot', superDefeated: false, omnidroidDefeated: true },
   { superSlug: 'generation-alpha', omnidroidSlug: 'skibidi-toilet', superDefeated: true, omnidroidDefeated: false },
+  { superSlug: 'generation-beta', omnidroidSlug: 'skibidi-toilet', superDefeated: false, omnidroidDefeated: true },
+  { superSlug: 'generation-beta', omnidroidSlug: 'italian-brainrot', superDefeated: false, omnidroidDefeated: true },
+  { superSlug: 'generation-beta', omnidroidSlug: '67', superDefeated: true, omnidroidDefeated: false },
+
 ]
